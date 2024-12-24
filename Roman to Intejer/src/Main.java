@@ -3,9 +3,9 @@ import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println();
+        System.out.println(romanTo);
     }
-    public  int romanToString(String str){
+    public  int romanToInt(String str){
 
     }
 }
