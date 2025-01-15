@@ -1,0 +1,1 @@
+bu algortim shunday ishlaydi birinchi bolib ozgaruvchi ochamiz nolga teng bolgan va arrayni yurib chiqamiz song nolga teng bolmagan elemntlarni chapga soramiz va yaratgan ozgaruvchimizni qiymatini nolga teng bolmagan elementlar uzunligiga tenglaymiz keyin ozgaruvchimizdan boshlab yurib arrayni lengthigacha yuramiz va arr[i]=0 qilamiz natija tayyor
