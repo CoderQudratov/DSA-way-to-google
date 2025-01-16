@@ -3,8 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/DSA-way-to-Google.iml" filepath="$PROJECT_DIR$/.idea/DSA-way-to-Google.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Indexes of Subarray Sum/Indexes of Subarray Sum.iml" filepath="$PROJECT_DIR$/Indexes of Subarray Sum/Indexes of Subarray Sum.iml" />
       <module fileurl="file://$PROJECT_DIR$/Roman to Intejer/Roman to Intejer.iml" filepath="$PROJECT_DIR$/Roman to Intejer/Roman to Intejer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Royxatni aylantirish/Royxatni aylantirish.iml" filepath="$PROJECT_DIR$/Royxatni aylantirish/Royxatni aylantirish.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nolni onga sorish/nolni onga sorish.iml" filepath="$PROJECT_DIR$/nolni onga sorish/nolni onga sorish.iml" />
     </modules>
   </component>
 </project>
