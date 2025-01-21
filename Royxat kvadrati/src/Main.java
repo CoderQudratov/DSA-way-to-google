@@ -1,25 +1,25 @@
+import java.util.Arrays;
+import java.util.Collections;
+
+import static java.util.Arrays.sort;
+
 public class Main {
     public int[] sortedSquares(int[] nums) {
         // write code here
-        for (int i = 0; i < nums.length; i++) {
-            int sqrt = (int) Math.pow(nums[i],2);
-            nums[i]=sqrt;
-        }
-        return sortedArr(nums);
-    }
-    public static int[] sortedArr(int[] nums){
-        for (int i = 0; i < nums.length; i++) {
-            for (int j = 1; j < i; j++) {
-             if (nums[j-1]>nums[j]){
-                 int temp=nums[j-1];
-                 nums[j-1]=nums[j];
-                 nums[j]=temp;
-
-             }
+        int[] result = new int[nums.length];
+        int left=0,right=nums.length-1;
+        for (int i = nums.length-1; i>=0; i--) {
+            if (Math.abs(nums[left])>Math.abs(nums[right])){
+                result[i]=nums[left]*nums[left];
+                left++;
+            }else {
+                result[i]=nums[right]* nums[right];
+                right--;
             }
         }
-        return  nums;
+        return result;
     }
+
     public static void main(String[] args) {
        int[] arr ={-7,-3,2,3,11};
        int[] res =new Main().sortedSquares(arr);
